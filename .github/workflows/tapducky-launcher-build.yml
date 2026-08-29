@@ -3,6 +3,7 @@ name: Build TapDucky Launcher APK
 on:
   push:
     branches:
+      - main
       - build/tapducky-launcher-20260829
     paths-ignore:
       - tapducky-build-artifacts/**
